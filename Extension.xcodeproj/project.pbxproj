@@ -13,6 +13,7 @@
 		A4A0B0991B87012900941AAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A0B0981B87012900941AAC /* Images.xcassets */; };
 		A4A0B09C1B87012900941AAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A0B09A1B87012900941AAC /* LaunchScreen.xib */; };
 		A4A0B0A81B87012900941AAC /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A0B0A71B87012900941AAC /* ExtensionTests.swift */; };
+		A693AC481B8707B300F7B0EE /* qwe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693AC471B8707B300F7B0EE /* qwe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A4A0B0A11B87012900941AAC /* ExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A0B0A61B87012900941AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4A0B0A71B87012900941AAC /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		A693AC471B8707B300F7B0EE /* qwe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = qwe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		A4A0B0831B87012900941AAC = {
 			isa = PBXGroup;
 			children = (
+				A693AC471B8707B300F7B0EE /* qwe.swift */,
 				A4A0B08E1B87012900941AAC /* Extension */,
 				A4A0B0A41B87012900941AAC /* ExtensionTests */,
 				A4A0B08D1B87012900941AAC /* Products */,
@@ -214,6 +217,7 @@
 			files = (
 				A4A0B0941B87012900941AAC /* ViewController.swift in Sources */,
 				A4A0B0921B87012900941AAC /* AppDelegate.swift in Sources */,
+				A693AC481B8707B300F7B0EE /* qwe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				A4A0B0AD1B87012900941AAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4A0B0AE1B87012900941AAC /* Build configuration list for PBXNativeTarget "ExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				A4A0B0B01B87012900941AAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
